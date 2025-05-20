@@ -1,0 +1,111 @@
+ body {
+      background: #f6f2df;
+    }
+    .main-header {
+      background: linear-gradient(0deg, #225c87 90%, #295f8c 100%);
+      color: #fff;
+      padding: 24px 0 0 0;
+      margin-bottom: 0;
+    }
+    .main-header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+    .nav-pills .nav-link {
+      color: #fff;
+      font-size: 1.1rem;
+      margin: 0 8px;
+    }
+    .nav-pills .nav-link.active,
+    .nav-pills .nav-link:hover {
+      background: none;
+      text-decoration: underline;
+    }
+    .main-container {
+      max-width: 1050px;
+      margin: 0 auto;
+      padding: 30px 0 0 0;
+    }
+    .rounded-img {
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .news-title {
+      font-size: 2.3rem;
+      font-weight: bold;
+      margin: 20px 0 10px 0;
+      line-height: 1.1;
+    }
+    .news-text {
+      font-size: 1.12rem;
+    }
+    .section-title {
+      font-size: 1.15rem;
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+    .sidebar-block {
+      background: #d9e9f6;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 18px;
+    }
+    .sidebar-block ul {
+      padding-left: 18px;
+      margin-bottom: 0;
+    }
+    .sidebar-block h6 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .search-box {
+      margin-bottom: 14px;
+    }
+    .search-input {
+      border-radius: 5px 0 0 5px !important;
+      font-size: 1rem;
+    }
+    .search-btn {
+      border-radius: 0 5px 5px 0 !important;
+      background: #275d8a;
+      color: #fff;
+      border: none;
+      padding: 0 14px;
+    }
+    .card-news {
+      border: none;
+      background: none;
+      margin-bottom: 10px;
+    }
+    .line {
+      border-top: 2px solid #d2d2d2;
+      margin: 16px 0;
+    }
+    .footer {
+      background: #b7d3ea;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 1.1rem;
+      margin-top: 35px;
+    }
+    .btn-address {
+      width: 100%;
+      padding: 12px;
+      background: #265c87;
+      color: #fff;
+      border-radius: 9px;
+      border: none;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-top: 14px;
+    }
+    /* Контролируем ширину sidebar, чтобы блоки были ближе */
+    @media (min-width: 992px) {
+      .sidebar {
+        min-width: 340px;
+        max-width: 370px;
+      }
+    }

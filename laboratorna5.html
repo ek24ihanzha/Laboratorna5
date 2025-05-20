@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Макет «News Website UA»</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="img/pic5.png">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-wrapper shadow-sm">
+    
+    <header class="text-white text-center py-4">
+      <h1 class="m-0">САЙТ НОВИН</h1>
+    </header>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid justify-content-center px-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item px-3"><a class="nav-link active" href="#">Головна</a></li>
+            <li class="nav-item px-3"><a class="nav-link" href="#">Світ</a></li>
+            <li class="nav-item px-3"><a class="nav-link" href="#">Політика</a></li>
+            <li class="nav-item px-3"><a class="nav-link" href="#">Бізнес</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <div class="container-fluid my-4 px-3">
+      <div class="row g-4">
+       
+        <div class="col-lg-7">
+          <div class="card mb-4 border-0">
+            <img src="img/pic1.png" class="card-img-top main-img" alt="Головна новина зображення">
+            <div class="card-body px-0">
+              <h2 class="card-title h3 fw-bold">Головна новина дня</h2>
+              <p class="card-text">Сьогодні місто обговорює масштабні зміни в економіці та політичному житті країни.</p>
+            </div>
+          </div>
+
+          <div class="mb-4 border-top pt-3">
+            <div class="row align-items-center g-3">
+              <div class="col-sm-4"><img src="img/pic2.png" class="img-fluid rounded section-img" alt="Світ"></div>
+              <div class="col-sm-8">
+                <h3 class="h4 fw-bold">Світ</h3>
+                <p class="mb-0">У різних куточках планети тривають дебати щодо кліматичних змін та їхнього впливу на суспільство.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4 border-top pt-3">
+            <div class="row align-items-center g-3 flex-row-reverse">
+              <div class="col-sm-4"><img src="img/pic3.png" class="img-fluid rounded section-img" alt="Політика"></div>
+              <div class="col-sm-8">
+                <h3 class="h4 fw-bold">Політика</h3>
+                <p class="mb-0">Парламент ухвалив новий закон, який докорінно змінить податкову систему країни.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4 border-top pt-3">
+            <div class="row align-items-center g-3">
+              <div class="col-sm-4"><img src="img/pic4.png" class="img-fluid rounded section-img" alt="Бізнес"></div>
+              <div class="col-sm-8">
+                <h3 class="h4 fw-bold">Бізнес</h3>
+                <p class="mb-0">Українські стартапи залучили рекордні інвестиції та виходять на світовий ринок.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-5">
+          <div class="mb-4 p-3 sidebar-panel rounded">
+            <form class="d-flex mb-3">
+              <input class="form-control me-2" type="search" placeholder="Пошук">
+              <button class="btn btn-secondary" type="submit">Пошук</button>
+            </form>
+            <h5 class="fw-bold">Популярні новини</h5>
+            <ul class="mb-0 ps-3">
+              <li class="mb-2">У Києві відкрили новий парк відпочинку</li>
+              <li class="mb-2">Ціни на пальне знизилися на 5&nbsp;%</li>
+              <li>Збірна України здобула впевнену перемогу</li>
+            </ul>
+          </div>
+
+          <div class="mb-4 p-3 sidebar-panel rounded">
+            <h5 class="fw-bold">Популярні новини</h5>
+            <ul class="mb-0 ps-3">
+              <li class="mb-2">Синоптики прогнозують теплий квітень</li>
+              <li class="mb-2">У Львові стартував книжковий форум</li>
+              <li>Вчені оголосили про нове відкриття у сфері енергії</li>
+            </ul>
+          </div>
+
+          <div class="card border-0">
+            <img src="img/pic5.png" class="card-img-top" alt="Політична подія">
+            <div class="card-body px-0">
+              <h5 class="fw-bold">Політика</h5>
+              <p>Міський голова оголосив про проведення відкритого форуму для мешканців.</p>
+              <a href="#" class="btn btn-primary w-100">Докладніше</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <footer class="text-center py-3 border-top small text-muted">
+      © 2024 Сайт новин
+    </footer>
+  </div>
+</body>
+</html>
